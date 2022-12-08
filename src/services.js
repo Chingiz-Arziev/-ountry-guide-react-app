@@ -4,4 +4,5 @@ export const ALL_COUNTRIES = BASE_URL + 'all?fields=name,capital,flags,populatio
 
 export const searchByCountry = (name) => BASE_URL + 'name/' + name
 
-export const searchByCode = (code) => BASE_URL + 'alpha?codes' + code.join(',')
+export const searchByCode = (code) => BASE_URL + 'alpha?codes=' + code.join(',')
+
